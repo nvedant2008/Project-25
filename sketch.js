@@ -30,7 +30,8 @@ function setup() {
 	var ball_options={
 		isStatic:false,
 		restitution:0.3,
-		density:0.4
+		density:1.2
+		friction:0
 	}
 
 	ball = Bodies.circle(260,100,radius/2.6,ball_options);
